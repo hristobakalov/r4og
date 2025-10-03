@@ -1,4 +1,25 @@
 {
   "name": "r4og",
-  "packageManager": "yarn@4.3.1"
+  "packageManager": "yarn@4.9.1",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.19.5",
+    "dotenv": "^17.2.3",
+    "graphql": "^16.11.0",
+    "graphql-request": "^7.2.0",
+    "hono": "^4.9.9",
+    "qs": "^6.14.0",
+    "zod": "^4.1.11"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.2",
+    "@types/qs": "^6.14.0",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
 }
