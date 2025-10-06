@@ -1,4 +1,4 @@
-# R4OG (REST for Optimizely Graph)
+# r4og (REST for Optimizely Graph)
 
 REST API wrapper for GraphQL CMS services. Provides a clean RESTful interface with query string parameters for any GraphQL content type.
 
